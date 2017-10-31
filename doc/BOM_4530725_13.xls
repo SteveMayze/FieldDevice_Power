@@ -1,0 +1,13 @@
+Part	Manufacturer	Part Number	Quantity	Price	Attribute 1 Name	Attribute 1 Value	Attribute 2 Name	Attribute 2 Value	Attribute 3 Name	Attribute 3 Value	Footprint
+"C3"	"Taiyo Yuden"	"EMK212B7105KG-T"	"1"	"0.02"	"Cap"	"1uF"	"ESR"	"0Ohm"	""	""	"0805"
+"Cff"	"Yageo America"	"CC0805JRNPO9BN390"	"1"	"0.01"	"Cap"	"39pF"	"ESR"	"0Ohm"	""	""	"0805"
+"Cin"	"Vishay-Sprague"	"293D226X9016B2TE3"	"1"	"0.14"	"Cap"	"22uF"	"ESR"	"1.9Ohm"	""	""	"3528-21"
+"Cout"	"Vishay-Sprague"	"593D107X0010D2TE3"	"1"	"0.28"	"Cap"	"100uF"	"ESR"	"0.1Ohm"	""	""	"7343-31"
+"Coutx"	"Kemet"	"C0603C105Z8VACTU"	"1"	"0.01"	"Cap"	"1uF"	"ESR"	"0Ohm"	""	""	"0603"
+"D1"	"Diodes Inc."	"B320A-13-F"	"1"	"0.15"	"VFatIo"	"0.5V"	"Io"	"3A"	"VRRM"	"20V"	"SMA"
+"L1"	"TDK"	"VLP8040T-6R8M"	"1"	"0.22"	"L"	"6.8uH"	"DCR"	"0.024Ohm"	"IDC"	"3.6A"	"VLP8040"
+"R1"	"Vishay-Dale"	"CRCW040248R7FKED"	"1"	"0.01"	"Resistance"	"48.7Ohm"	"Tolerance"	"1%"	"Power"	"0.063W"	"0402"
+"Rfbb"	"Vishay-Dale"	"CRCW040249K9FKED"	"1"	"0.01"	"Resistance"	"49.9kOhm"	"Tolerance"	"1%"	"Power"	"0.063W"	"0402"
+"Rfbt"	"Susumu Co Ltd"	"RR1220P-154-D"	"1"	"0.01"	"Resistance"	"150kOhm"	"Tolerance"	"0.5%"	"Power"	"0.1W"	"0805"
+"Rt"	"Vishay-Dale"	"CRCW0402357KFKED"	"1"	"0.01"	"Resistance"	"357kOhm"	"Tolerance"	"1%"	"Power"	"0.063W"	"0402"
+"U1"	"Texas Instruments"	"LM2621MM/NOPB"	"1"	"0.78"	""	""	""	""	""	""	"MUA08A"
