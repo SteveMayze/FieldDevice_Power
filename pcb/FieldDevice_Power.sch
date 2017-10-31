@@ -32,6 +32,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:FieldDevice_Power-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -183,7 +184,7 @@ Wire Wire Line
 	5850 4100 5400 4100
 Connection ~ 5400 4100
 Wire Wire Line
-	6350 2600 8000 2600
+	6350 2600 8500 2600
 Wire Wire Line
 	6350 2800 6500 2800
 Wire Wire Line
@@ -301,12 +302,12 @@ Text Notes 7000 2700 0    60   ~ 0
 (48.7Ω)
 Text Notes 5450 4650 0    60   ~ 0
 (49.9lΩ)
-Text Label 8000 2600 2    60   ~ 0
+Text Label 8500 2600 2    60   ~ 0
 Vout
 Connection ~ 3700 2000
 Text Label 3250 2000 0    60   ~ 0
 Vin
-Text Notes 7850 2950 0    60   ~ 0
+Text Notes 7800 3000 0    60   ~ 0
 Cout (100uF)
 $Comp
 L C C4
@@ -366,8 +367,42 @@ Text Notes 5900 3700 0    60   ~ 0
 Rfbt
 Text Notes 3850 2750 0    60   ~ 0
 Cin
-Text Notes 8100 2600 0    60   ~ 0
+Text Notes 8800 2550 0    60   ~ 0
 5V Out
 Text Notes 3250 1900 0    60   ~ 0
 3V7 In (Nominal)
+$Comp
+L Conn_01x02_Male J1
+U 1 1 59F89D18
+P 3050 2000
+F 0 "J1" H 3050 2100 50  0000 C CNN
+F 1 "Vin" H 2950 1950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3050 2000 50  0001 C CNN
+F 3 "" H 3050 2000 50  0001 C CNN
+	1    3050 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2100 3450 2100
+Wire Wire Line
+	3450 2100 3450 3050
+Wire Wire Line
+	3450 3050 3700 3050
+Connection ~ 3700 3050
+$Comp
+L Conn_01x02_Male J2
+U 1 1 59F89ECA
+P 8700 2600
+F 0 "J2" H 8700 2700 50  0000 C CNN
+F 1 "Vout" H 8600 2550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8700 2600 50  0001 C CNN
+F 3 "" H 8700 2600 50  0001 C CNN
+	1    8700 2600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2700 8500 3350
+Wire Wire Line
+	8500 3350 7750 3350
+Connection ~ 7750 3350
 $EndSCHEMATC
