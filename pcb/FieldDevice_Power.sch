@@ -120,9 +120,9 @@ P 5350 5550
 F 0 "R4" V 5430 5550 50  0000 C CNN
 F 1 "49.9kΩ E96 1%" H 5000 5550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0402" V 5280 5550 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 5350 5550 50  0001 C CNN
-F 4 "CRCW040249K9FKED" H 5350 5550 60  0001 C CNN "MPN"
-F 5 "https://www.digikey.de/scripts/DkSearch/dksus.dll?Detail&itemSeq=242528887&uq=636451075115136113" H 5350 5550 60  0001 C CNN "Link"
+F 3 "" H 5350 5550 50  0001 C CNN
+F 4 "RC0402FR-0749K9L" H 5350 5550 60  0001 C CNN "MPN"
+F 5 "https://www.digikey.de/scripts/DkSearch/dksus.dll?Detail&itemSeq=242650584&uq=636451245580086657" H 5350 5550 60  0001 C CNN "Link"
 	1    5350 5550
 	-1   0    0    1   
 $EndComp
